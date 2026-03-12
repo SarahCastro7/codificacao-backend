@@ -30,7 +30,7 @@ app.get('/frutas/getAll', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-  res.send('vaaaaai!')
+  res.send('vaaaaai, nao vai, vaaaaaaaai, nao')
 })
 
 app.listen(port, () => {
