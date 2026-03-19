@@ -13,6 +13,7 @@ class Pet {
     } 
 }
 
-export default new Pet(); 
+export default new Pet();
+export const petServices = new Pet();
 
-// BD > Services > Routes > server.js 
+//BD > Services > Routes > pet.js
