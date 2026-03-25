@@ -1,6 +1,7 @@
 import express from 'express'
 import route from './routes/estudantesRouter.js'
-const port = 3000
+
+const PORT = 3000
 
 const app = express()
 app.use(express.json())
@@ -12,6 +13,6 @@ app.get("/", (req, res) => {
 
 app.use("/estudantes", route)
 
-app.listen(porta, () => {
-  console.log(`O servidor está rodando em http://localhost:${porta}`)
+app.listen(PORT, () => {
+  console.log(`O servidor está rodando em http://localhost:${PORT}`)
 })

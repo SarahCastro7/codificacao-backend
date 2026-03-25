@@ -7,4 +7,4 @@ route.get("/" , (req , res) => {
     res.json(serverServices.getAll())
 })
 
-export default route
+export default route;
