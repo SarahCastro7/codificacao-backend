@@ -1,0 +1,7 @@
+[
+    {"id": 1, "type": "maça",     "cor": "vermelha"},
+    {"id": 2, "type": "banana",   "cor": "amarela"},
+    {"id": 3, "type": "abacate",  "cor": "verde"},
+    {"id": 4, "type": "uva croc croc",      "cor": "verde"},
+    {"id": 5, "type": "morango",  "cor": "vermelha"}
+]
